@@ -36,7 +36,7 @@ These environment variables can be set at run time to override their defaults.
 
 * JVM_OPTS "-Xms2048m -Xmx4096m"
 * MOTD "The Pixelmon Modpack 9.1.9 Server Powered by Docker"
-* LEVEL 
+* LEVEL world
 
 ### Adding Minecraft Operators
 
