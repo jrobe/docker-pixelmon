@@ -11,10 +11,10 @@ else
 	exit 99
 fi
 
-if ! [[ -f serverpack919.zip ]]; then
+if ! [[ -f serverpack9110.zip ]]; then
     rm -fr configs defaultconfigs kubejs libraries mods forge-*.jar server-setup-config.yaml server-start.* serverstarter-*.jar Enigmatica6Server-*.zip
 	rm -fr config defaultconfigs global_data_packs global_resource_packs mods packmenu libraries
-	curl -Lo serverpack919.zip 'https://edge.forgecdn.net/files/4826/541/serverpack919.zip' && unzip -u -o 'serverpack919.zip' -d /data
+	curl -Lo serverpack9110.zip 'https://edge.forgecdn.net/files/4966/924/serverpack9110.zip' && unzip -u -o 'serverpack9110.zip' -d /data
 	if [[ -d serverpack ]]; then
 	  mv -f serverpack/* /data/
 	  rm -fr serverpack
