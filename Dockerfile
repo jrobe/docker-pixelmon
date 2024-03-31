@@ -2,7 +2,7 @@
 
 FROM openjdk:8u312-jre-buster
 
-LABEL version="9.1.10"
+LABEL version="9.1.11"
 
 RUN apt-get update && apt-get install -y curl unzip && \
  adduser --uid 99 --gid 100 --home /data --disabled-password minecraft
