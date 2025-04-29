@@ -2,9 +2,9 @@
 
 FROM openjdk:8u312-jre-buster
 
-LABEL version="9.1.7"
+LABEL version="9.1.13"
 LABEL homepage.group=Minecraft
-LABEL homepage.name="The Pixelmon Modpack 9.1.7"
+LABEL homepage.name="The Pixelmon Modpack 9.1.13"
 LABEL homepage.icon="https://media.forgecdn.net/avatars/279/234/637276853291457748.png"
 LABEL homepage.widget.type=minecraft
 LABEL homepage.widget.url=udp://Pixelmon:25565
