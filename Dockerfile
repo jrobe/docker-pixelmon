@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM openjdk:8u312-jre-buster
+FROM openjdk:11-jre-buster
 
 LABEL version="9.1.13"
 LABEL homepage.group=Minecraft
@@ -9,7 +9,7 @@ LABEL homepage.icon="https://media.forgecdn.net/avatars/279/234/6372768532914577
 LABEL homepage.widget.type=minecraft
 LABEL homepage.widget.url=udp://Pixelmon:25565
 RUN apt-get update && apt-get install -y curl unzip && \
- adduser --uid 99 --gid 100 --home /data --disabled-password minecraft
+ adduser --uid 568 --gid 568 --home /data --disabled-password minecraft
 
 COPY launch.sh /launch.sh
 RUN chmod +x /launch.sh
